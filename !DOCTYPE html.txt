@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sai A2Z Event Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .gallery img {
+            width: 250px;
+            height: 180px;
+            border: 3px solid #ff6600;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>✨ Sai A2Z Event Management ✨</h1>
+        <p>We make your celebrations unforgettable!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Sai A2Z Event Management specializes in weddings, birthdays, corporate events, and festive decorations. 
+        We bring creativity, joy, and elegance to every occasion.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul style="list-style-type:none;">
+            <li>🎉 Wedding Planning</li>
+            <li>🎂 Birthday Parties</li>
+            <li>🏢 Corporate Events</li>
+            <li>🌸 Festival Decorations</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/250x180?text=Wedding+Decor" alt="Wedding Decoration">
+            <img src="https://via.placeholder.com/250x180?text=Birthday+Party" alt="Birthday Party">
+            <img src="https://via.placeholder.com/250x180?text=Corporate+Event" alt="Corporate Event">
+            <img src="https://via.placeholder.com/250x180?text=Festival+Decor" alt="Festival Decoration">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@saiA2Zevents.com</p>
+        <p>Phone: +91 98765 43210</p>
+    </section>
+
+    <footer>
+        <p>Created by Jishnu © 2026 | Sai A2Z Event Management</p>
+    </footer>
+
+</body>
+</html>
